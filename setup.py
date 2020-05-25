@@ -22,7 +22,7 @@ install = [
 setup(
     name='tablib',
     use_scm_version=True,
-    setup_requires=['setuptools_scm'],
+    setup_requires=['setuptools_scm == 3.5.0'],
     description='Format agnostic tabular data library (XLS, JSON, YAML, CSV)',
     long_description=(open('README.md').read() + '\n\n' +
         open('HISTORY.md').read()),
